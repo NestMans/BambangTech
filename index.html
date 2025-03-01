@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Web Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-blue-600 p-4 sticky top-0 z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <div>
+        <img alt="Bambang Tech Logo" class="h-8" height="100" src="logo.png" width="120"/>
+      </div>
+      <div class="space-x-4">
+        <a class="text-white" href="#home">Home</a>
+        <a class="text-white" href="#services">Layanan</a>
+        <a class="text-white" href="#contact">Kontak</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative">
+    <img alt="Hero Image" class="w-full h-64 object-cover blur-sm" height="400" src="hero.jpg" width="1200"/>
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white">
+      <img alt="Bambang Tech Logo" class="h-16 mb-4" height="50" src="logo.png" width="200"/>
+      <p class="text-xl">Jasa Service Komputer-Laptop-Android</p>
+      <p>Jasa Ketik &amp; Desain</p>
+      <p class="text-lg">Panggilan ke Rumah / Kantor</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-8">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-gray-200 p-4 rounded-lg shadow-lg">
+          <h2 class="text-xl font-bold mb-2">Service Komputer &amp; Laptop</h2>
+          <ul class="list-disc list-inside">
+            <li>Install Ulang</li>
+            <li>Service Hardware</li>
+            <li>Upgrade</li>
+          </ul>
+          <a href="#service-komputer" class="mt-4 bg-orange-500 text-white py-2 px-4 rounded block text-center">Selengkapnya</a>
+        </div>
+        <div class="bg-gray-200 p-4 rounded-lg shadow-lg">
+          <h2 class="text-xl font-bold mb-2">Service Android</h2>
+          <ul class="list-disc list-inside">
+            <li>Upgrade/Dwongrade System</li>
+            <li>Service Software</li>
+            <li>Pasang Custom Rom</li>
+          </ul>
+          <a href="#service-android" class="mt-4 bg-orange-500 text-white py-2 px-4 rounded block text-center">Selengkapnya</a>
+        </div>
+        <div class="bg-gray-200 p-4 rounded-lg shadow-lg">
+          <h2 class="text-xl font-bold mb-2">Jasa Ketik &amp; Desain</h2>
+          <ul class="list-disc list-inside">
+            <li>Kartu Undangan - Kartu Nama</li>
+            <li>Harga Terjangkau</li>
+          </ul>
+          <a href="#jasa-ketik" class="mt-4 bg-orange-500 text-white py-2 px-4 rounded block text-center">Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Details Section -->
+  <section id="service-komputer" class="py-8">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-white p-4 rounded-lg shadow-lg">
+          <img alt="Service Image" class="w-full h-48 object-cover rounded-lg mb-4" height="400" src="service-komputer.jpg" width="600"/>
+          <h2 class="text-xl font-bold mb-2">Service Komputer &amp; Laptop</h2>
+          <ul class="list-disc list-inside">
+            <li>Install Ulang Windows</li>
+            <h2>Komputer yang lama dipakai bisa terasa lemot atau sering error. Instal ulang penting untuk menghapus file sampah, menghilangkan virus, dan mengembalikan performa seperti baru.</h2>
+            <li>Service Hardware</li>
+            <h3>Jika perangkat panas, kipas berisik, atau sering mati sendiri, itu tanda ada masalah hardware. Service diperlukan agar komponen tetap berfungsi dengan baik dan perangkat lebih awet.</h3>
+            <li>Upgrade Komponen</li>
+            <h4>Jika komputer mulai lemot saat multitasking atau tidak bisa menjalankan aplikasi terbaru, upgrade komponen seperti RAM atau VGA diperlukan agar performa lebih cepat dan lancar.</h4>
+          </ul>
+        </div>
+    </div>
+    </div>
+    <section id="service-android" class="py-8">
+        <div class="container mx-auto">
+        <div class="bg-white p-4 rounded-lg shadow-lg">
+          <img alt="Service Image" class="w-full h-48 object-cover rounded-lg mb-4" height="400" src="service-android.jpeg" width="600"/>
+          <h2 class="text-xl font-bold mb-2">Service Android</h2>
+          <ul class="list-disc list-inside">
+            <li>Upgrade/Downgrade System</li>
+            <h1>Jika versi sistem saat ini terasa berat atau tidak kompatibel dengan aplikasi, upgrade atau downgrade diperlukan agar perangkat lebih stabil dan optimal digunakan.</h1>
+            <li>Service Hardware</li>
+            <h2>Jika aplikasi sering error, crash, atau sistem terasa lambat akibat bug atau malware, service software diperlukan untuk memperbaiki dan mengembalikan fungsionalitasnya.</h2>
+            <li>Upgrade</li>
+            <h3>Jika sistem bawaan terlalu berat, banyak bloatware, atau tidak lagi mendapat update, custom ROM bisa menjadi solusi untuk meningkatkan performa dan mendapatkan fitur terbaru.</h3>
+          </ul>
+        </div>
+    <section id="jasa-ketik" class="py-8">
+        <div class="container mx-auto">
+        <div class="bg-white p-4 rounded-lg shadow-lg">
+          <img alt="Service Image" class="w-full h-48 object-cover rounded-lg mb-4" height="400" src="desain.jpg" width="600"/>
+          <h2 class="text-xl font-bold mb-2">Jasa Ketik &amp; Desain</h2>
+          <ul class="list-disc list-inside">
+            <li>Jasa Ketik</li>
+            <h1>Ketik Ulang Dokumen - Menyalin tulisan tangan, gambar, atau file scan ke dalam format digital (Word, PDF, dll.).</h1>
+            <p>Pembuatan CV dan Surat Lamaran - Membantu mengetik dan menyusun CV serta surat lamaran kerja</p>
+            <li>Jasa Desain</li>
+            <h2>Membuat desain kemasan makanan, Kartu Nama, Undangan, MMT, Dll</h2>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Contact Section -->
+<section id="contact" class="py-8 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h2 class="text-xl font-bold mb-4">Hubungi Kami Melalui :</h2>
+      <div class="space-x-4">
+        <a href="https://wa.me/6285183046035?text=Saya%20ingin%20bertanya%20tentang%20jasa%20yang%20anda%20bagikan" class="inline-block">
+          <button class="bg-green-500 text-white py-2 px-4 rounded">Chat via WhatsApp</button>
+        </a>
+        <a href="https://www.facebook.com/NESTMANS140/" class="inline-block">
+          <button class="bg-blue-500 text-white py-2 px-4 rounded">Chat via Facebook</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-8">
+    <div class="container mx-auto text-center">
+      <h2 class="text-xl font-bold mb-4">KAMI ADA DI :</h2>
+      <p>Alamat kami :</p>
+      <p>Jl. Tanjungsari Rt09/02, Sumurboto, Banyumanik, Semarang, Jawa Tengah</p>
+      <p>Telp: 0851-8304-6035</p>
+      <div class="mt-4">
+        <h3 class="text-lg font-bold">Media Sosial Kami</h3>
+        <div class="space-x-4">
+          <a class="text-white" href="https://www.facebook.com/NESTMANS140/"><i class="fab fa-facebook"></i> Facebook</a>
+          <a class="text-white" href="https://www.instagram.com/nestmans140/"><i class="fab fa-instagram"></i> Instagram</a>
+          <a class="text-white" href="https://www.tiktok.com/@nestmans"><i class="fab fa-tiktok"></i> Tiktok</a>
+          <a class="text-white" href="https://www.youtube.com/@nestmans"><i class="fab fa-youtube"></i> YouTube</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
